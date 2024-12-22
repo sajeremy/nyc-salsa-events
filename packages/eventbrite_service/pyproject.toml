@@ -17,8 +17,8 @@ selenium = "^4.27.1"
 [tool.ruff]
 src=["packages/eventbrite_service"]
 line-length=120
-select=["E","F","I","W"]
-ignore=["E501"]
+lint.select=["E","F","I","W"]
+lint.ignore=["E501"]
 fix=true
 
 
